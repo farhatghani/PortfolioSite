@@ -1,0 +1,119 @@
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: transparent;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Header/Blog Title */
+.header {
+  text-align: left;
+  background: white;
+  width: 1000px;
+  margin-right: auto;
+  margin-left:auto;
+  border-bottom-right-radius: 12px; 
+  border-bottom-left-radius: 12px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+.sideDiv{
+  text-align: left;
+  background: white;
+  width: 1000px;
+  margin-right: auto;
+  margin-left:auto;
+  padding-top:10px;
+  border-top-right-radius: 12px; 
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px; 
+  border-bottom-left-radius: 12px;
+}
+
+div.container{
+  text-align: center;
+  background: white;
+  width:980px;
+  margin-right: auto;
+  margin-left:auto;
+  padding-left:20px;
+  padding-bottom:5px;
+  border-top-right-radius: 12px; 
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px; 
+  border-bottom-left-radius: 12px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 10px;
+  background-color: #ddd;
+  padding: 10px;
+  width:930px;
+  height:900px;
+  margin-right: auto;
+  margin-left:auto;
+  border-top-right-radius: 12px; 
+  border-top-left-radius: 12px;
+  border-bottom-right-radius: 12px; 
+  border-bottom-left-radius: 12px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  height:350px;
+  width:300px;
+  font-size: 30px;
+}
+/* Footer */
+.footer {
+  padding: 15px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
